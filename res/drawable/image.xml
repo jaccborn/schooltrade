@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <corners android:radius="5dp" />
+
+    
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/head_bg" android:state_focused="true"></item>
+    <item android:drawable="@drawable/head_bg" android:state_selected="false"></item>
+
+</selector>
+</shape>

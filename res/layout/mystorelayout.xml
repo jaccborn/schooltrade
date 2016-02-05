@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/mystore_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/head_bg"
+            android:src="@drawable/head" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/relativeLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/relativeLayout1" >
+
+        <TextView
+            android:id="@+id/mystore_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:text="店铺名称"
+            android:textColor="#00FFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/mystore_owner"
+            android:text="所属者:"
+            android:textColor="#00FF00"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/mystore_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="XXX"
+            android:textColor="#00FF00"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:background="@drawable/mine_line"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mine_line"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:text="联系电话:"
+            android:textColor="#FFB90F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mystore_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/tel"
+            android:text="110"
+            android:textColor="#FFB90F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/mystore_tel"
+            android:layout_marginLeft="5dp"
+            android:text="地        址:"
+            android:textColor="#FFB90F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mystore_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mystore_tel"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/place"
+            android:text="学XXX XXX"
+            android:textColor="#FFB90F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/registertime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mystore_place"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/mystore_registertime"
+            android:text="注册时间:"
+            android:textColor="#FFB90F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mystore_registertime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/mystore_place"
+            android:layout_marginRight="5dp"
+            android:text="2013年6月23日"
+            android:textColor="#FFB90F"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

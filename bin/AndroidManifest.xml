@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.st.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.st.activity.XZTApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/android:Theme.Holo.Light.NoActionBar" >
+        <activity
+            android:name="com.st.ui.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.st.app.HomePageActivity" >
+        </activity>
+        <activity android:name="com.st.app.MineActivity" >
+        </activity>
+        <activity android:name="com.st.app.OtherActivity" >
+        </activity>
+        <activity android:name="com.st.app.TypeActivity" >
+        </activity>
+        <activity android:name="com.st.app.HomePage_tabhostActivity" >
+        </activity>
+        <activity android:name="com.st.app.MypublishActivity" >
+        </activity>
+        <activity android:name="com.st.app.CollectstoregoodsActivity" >
+        </activity>
+        <activity android:name="com.st.app.CollectgoodsActivity" >
+        </activity>
+        <activity android:name="com.st.app.MyStoreGoodActivity" >
+        </activity>
+        <activity android:name="com.st.app.LoginActivity" >
+        </activity>
+        <activity android:name="com.st.app.FujinActivity" >
+        </activity>
+        <activity android:name="com.st.app.VIPActivity" >
+        </activity>
+        <activity android:name="com.st.app.ShoucangActivity" >
+        </activity>
+        <activity android:name="com.st.app.RemenActivity" >
+        </activity>
+        <activity android:name="com.st.app.DianpuActivity" >
+        </activity>
+        <activity android:name="com.st.app.GoodsDetailActivity" >
+        </activity>
+        <activity android:name="com.st.app.RegisterActivity" >
+        </activity>
+        <activity android:name="com.st.app.GoodsPublishActivity" >
+        </activity>
+    </application>
+
+</manifest>

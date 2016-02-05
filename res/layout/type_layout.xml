@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/id_type_layout">
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/edit_select"
+        android:orientation="vertical" >
+
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:textSize="12sp" 
+                 />
+          
+
+            
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear_data"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/edit_select"
+        android:orientation="horizontal" >
+
+        <com.origamilabs.library.views.StaggeredGridView
+            android:id="@+id/staggeredGridView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            staggered:drawSelectorOnTop="true"
+            staggered:numColumns="2" />
+    </LinearLayout>
+
+</LinearLayout>

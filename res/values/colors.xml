@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="home_tab_txt_checked">#FF6D00</color>
+    <color name="home_tab_txt">#999999</color>
+    <color name="edit_select">#F7F4EF</color>
+    <color name="edit">#F0EBD8</color>
+    <color name="textcolor">#FF6D00</color>
+    <drawable name="ic_tab_bg">#999999</drawable>
+    <color name="loginbutton">#F0EADA</color>
+    <color name="logindown">#FF9566</color>
+        <color name="black">#FF000000</color>
+     <drawable name="c_d_transparent">#F2EEE2</drawable>
+    <drawable name="c_d_transparent_press">#F0EADA</drawable>
+</resources>

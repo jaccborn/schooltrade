@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tab_items">
+        <item>主页</item>
+        <item>分类</item>
+        <item>发布</item>
+        <item>个人中心</item>
+        <item>更多</item>
+    </string-array>
+    <string-array name="mine_tab_items">
+        <item>已发布商品</item>
+        <item>店铺资料</item>
+        <item>求购版块</item>
+        <item>已收藏商品</item>
+    </string-array>
+
+</resources>

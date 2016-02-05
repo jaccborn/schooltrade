@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uploadgoodsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0EADA"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/layout_titlebar"/>
+
+    <EditText
+        android:id="@+id/publishgoodsname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:hint="请输入商品名称"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#373447"
+        android:textSize="16sp" />
+
+    <EditText
+          android:id="@+id/publishgoodsdesc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:hint="请输入商品描述"
+        android:padding="10dp"
+        android:textColor="#373447"
+        android:textSize="16sp" />
+      <EditText
+            android:id="@+id/publishgoodsprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:hint="请输入商品价格"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:numeric="integer"
+        android:textColor="#373447"
+        android:textSize="16sp" />
+     <TextView
+         android:id="@+id/goodsclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="请选择商品大类"
+        android:onClick="goodsclass"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#373447"
+        android:textSize="16sp" />
+     
+ 
+     
+       
+     <TextView
+         android:id="@+id/goodssort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="goodssort"
+        android:hint="请选择商品小类"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#373447"
+        android:textSize="16sp" />
+   
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="选择图片"
+        android:textColor="#CEC9E7"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/picImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_add_pic" />
+
+</LinearLayout>
